@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 1);
+}
+
+.container .inputs{
+    padding: 20px 60px;
+    width: 500px;
+    height: 550px;  
+    background: #1F1F1F;
+    border-radius: 10px;
+}
+.inputs .input{
+    margin-top: 35px;
+}
+.inputs h1{
+    display: inline-block;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.133333px;
+    color: #FFFFFF;
+}
+.inputs p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.inputs input{
+    padding: 20px 20px;
+    width: 380px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: inset -1px 0px 1px rgba(255, 255, 255, 0.04), inset 0px 0px 6px rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(8.5px);
+    border-radius: 5px;
+    border: none;
+    transition: 1s;
+}
+.inputs input:focus{
+    width: 410px;
+    outline: 1px solid #E11D84;
+}
+.inputs .btn{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.inputs .btn button{
+    width: 175px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: inset -1px 0px 1px rgba(255, 255, 255, 0.04), inset 0px 0px 6px rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(8.5px);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn button:active{
+    transform: scale(1.02);
+}
+
